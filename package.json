@@ -34,7 +34,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/Kushki/kushki-react-native",
+  "repository": "https://github.com/esteban-aristizabal/kushki-react-native",
   "author": "kushki <dev@kushkipagos.com> (https://github.com/Kushki)",
   "license": "MIT",
   "bugs": {
