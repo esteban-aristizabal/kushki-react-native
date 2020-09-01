@@ -1,0 +1,1 @@
+../../../Sift/Sift/SiftIosAppStateCollector.h

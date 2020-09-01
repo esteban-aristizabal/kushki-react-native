@@ -68,10 +68,6 @@ PODS:
     - glog
   - glog (0.3.5)
   - kushki-react-native (0.1.0):
-    - kushki-react-native/sift-react-native (= 0.1.0)
-    - React
-    - Sift
-  - kushki-react-native/sift-react-native (0.1.0):
     - React
     - Sift
   - OpenSSL-Universal (1.0.2.19):
@@ -300,6 +296,9 @@ PODS:
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
   - Sift (2.0.1)
+  - sift-react-native (0.1.1):
+    - React
+    - Sift
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -338,6 +337,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/callinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - sift-react-native (from `../node_modules/sift-react-native`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -407,6 +407,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  sift-react-native:
+    :path: "../node_modules/sift-react-native"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -426,7 +428,7 @@ SPEC CHECKSUMS:
   FlipperKit: 6dc9b8f4ef60d9e5ded7f0264db299c91f18832e
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  kushki-react-native: eeddedec0c7dc6dc71b0aa7e54e8502bebd87119
+  kushki-react-native: 1a7e6059a9f6bfd3678a90c5ea703ec35737050e
   OpenSSL-Universal: 8b48cc0d10c1b2923617dfe5c178aa9ed2689355
   RCTRequired: cec6a34b3ac8a9915c37e7e4ad3aa74726ce4035
   RCTTypeSafety: 93006131180074cffa227a1075802c89a49dd4ce
@@ -448,6 +450,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
   Sift: 770bdad90f05d347d16cba305952c8c19c5ff354
+  sift-react-native: 3221b6cb79416e8525507e0cc107a9bf28121d83
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 

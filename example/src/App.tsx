@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import KushkiReactNative from 'kushki-react-native';
+import KushkiReactNative from 'test-kushki-react-native';
 
 export default function App() {
   const [result] = React.useState<number | undefined>();

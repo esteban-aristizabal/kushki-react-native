@@ -1,0 +1,1 @@
+../../../../../node_modules/sift-react-native/ios/SiftReactNative.h

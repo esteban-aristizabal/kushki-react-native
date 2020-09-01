@@ -11,12 +11,13 @@ const configureSwift = () => {
     '57bad4e66d',
     true,
     'https://api3.siftscience.com/v3/accounts/%@/mobile_events',
-    true
+    false
   );
   SiftReactNative.setUserId('200000001062125400004242424242');
 };
 
 const requestToken = (): void => {
+  console.log(123312);
   configureSwift();
 
   const tokenMerchantId = '20000000102033494000';

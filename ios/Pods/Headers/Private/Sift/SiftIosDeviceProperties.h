@@ -1,0 +1,1 @@
+../../../Sift/Sift/SiftIosDeviceProperties.h

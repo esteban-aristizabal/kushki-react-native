@@ -5,7 +5,7 @@ platform :ios, '10.0'
 
 target 'KushkiReactNative' do
   # Comment the next line if you don't want to use dynamic frameworks
-  # use_frameworks!
+  # use_frameworks!c
 
   config = use_native_modules!
   use_react_native!(:path => config["reactNativePath"])
