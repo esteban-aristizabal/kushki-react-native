@@ -57,13 +57,11 @@
     "jest": "^26.0.1",
     "pod-install": "^0.1.0",
     "prettier": "^2.0.5",
-    "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react-native": "0.63.2",
     "release-it": "^13.5.8",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "react": "*",
     "react-native": "*"
   },
   "jest": {
@@ -140,6 +138,8 @@
     ]
   },
   "dependencies": {
+    "@kushki/js": "^1.19.1",
+    "react": "^16.13.1",
     "sift-react-native": "^0.1.1"
   }
 }
