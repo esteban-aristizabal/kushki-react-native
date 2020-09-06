@@ -35,12 +35,12 @@
     "android"
   ],
   "repository": "https://github.com/esteban-aristizabal/kushki-react-native",
-  "author": "kushki <dev@kushkipagos.com> (https://github.com/Kushki)",
+  "author": "esteban-aristizabal <esteban@kushkipagos.com> (https://github.com/esteban-aristizabal)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kushki/kushki-react-native/issues"
+    "url": "https://github.com/esteban-aristizabal/kushki-react-native/issues"
   },
-  "homepage": "https://github.com/Kushki/kushki-react-native#readme",
+  "homepage": "https://github.com/esteban-aristizabal/kushki-react-native#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
